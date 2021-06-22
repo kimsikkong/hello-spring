@@ -8,6 +8,10 @@ on:
 #  push:
 #    branches: [ main ]
 
+env:
+  S3_BUCKET_NAME: hello-spring
+  PROJECT_NAME: hello-spring
+
 jobs:
   build:
 
